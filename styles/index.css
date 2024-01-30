@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main p {
+    color: burlywood;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+    background: local;
+    background-color: black;
+    border-radius: 5px;
+
+
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+}
