@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    margin: 0 0 25px;
+    /* margin: 0 0 1px; */
     background-color: burlywood;
     display: flex;
     width: 100%;
@@ -83,4 +83,30 @@ div button {
 
 div svg {
     fill: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header {
+        background-color: black;
+    }
+
+    .store-name {
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    ul {
+        display: ruby-base;
+    }
+
+    div img {
+        width: 30px;
+        height: 30px;
+    }
 }
